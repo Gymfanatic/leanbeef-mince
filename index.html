@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lean Mince and Butternut Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .recipe-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff6f61;
+        }
+
+        .ingredients ul, .instructions ol {
+            margin: 0;
+            padding: 0;
+            list-style-position: inside;
+        }
+
+        .ingredients li, .instructions li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .extras {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .extras button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .extras .rating {
+            margin-top: 10px;
+        }
+
+        @media (min-width: 600px) {
+            main {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .recipe-image, .ingredients, .instructions, .extras {
+                flex: 1;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lean Mince and Butternut</h1>
+    </header>
+    <main>
+        <section class="recipe-image">
+            <img src="Beef-Mince-with-Sweet-Potato pic.jpg" alt="Lean Mince and Butternut">
+        </section>
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 tablespoon olive oil</li>
+                <li>1 large onion, finely chopped</li>
+                <li>2 garlic cloves, minced</li>
+                <li>500g lean beef mince</li>
+                <li>1 butternut squash, peeled and diced</li>
+                <li>1 can diced tomatoes</li>
+                <li>1 teaspoon ground cumin</li>
+                <li>1 teaspoon paprika</li>
+                <li>Salt and pepper to taste</li>
+                <li>Fresh parsley, chopped (optional)</li>
+            </ul>
+        </section>
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li>Heat olive oil in a large pan over medium heat.</li>
+                <li>Add the onion and garlic, and cook until softened.</li>
+                <li>Add the lean beef mince and cook until browned.</li>
+                <li>Stir in the diced butternut squash, and cook for 5-7 minutes.</li>
+                <li>Add the can of diced tomatoes, cumin, paprika, salt, and pepper. Stir well.</li>
+                <li>Cover and simmer for 20-25 minutes, or until the butternut squash is tender.</li>
+                <li>Garnish with fresh parsley before serving, if desired.</li>
+            </ol>
+        </section>
+        <section class="extras">
+            <button onclick="window.print()">Print Recipe</button>
+            <div class="rating">
+                <h3>Rate this recipe:</h3>
+                <span>⭐⭐⭐⭐⭐</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Recipe by Neo Mabasa</p>
+    </footer>
+</body>
+</html>
